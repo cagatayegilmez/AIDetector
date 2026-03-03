@@ -14,6 +14,14 @@
 		5251FE4E2F56F35C00CF1D98 /* AIDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE4C2F56F35C00CF1D98 /* AIDetectorUITests.swift */; };
 		5251FE4F2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE4D2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift */; };
 		5251FE542F56F4CC00CF1D98 /* AIDetector.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE532F56F4CC00CF1D98 /* AIDetector.mlpackage */; };
+		5251FE5A2F5700B100CF1D98 /* AIClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE592F5700A900CF1D98 /* AIClassifier.swift */; };
+		5251FE5C2F57010F00CF1D98 /* DetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE5B2F57010800CF1D98 /* DetectionViewModel.swift */; };
+		5251FE5E2F57011B00CF1D98 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE5D2F57011800CF1D98 /* ResultView.swift */; };
+		5251FE602F57023500CF1D98 /* AIClassidierError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE5F2F57022C00CF1D98 /* AIClassidierError.swift */; };
+		5251FE622F57026500CF1D98 /* DetectionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE612F57025D00CF1D98 /* DetectionLabel.swift */; };
+		5251FE642F57028000CF1D98 /* DetectionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE632F57027C00CF1D98 /* DetectionResult.swift */; };
+		5251FE662F5702FE00CF1D98 /* AIClassifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE652F5702F300CF1D98 /* AIClassifierProtocol.swift */; };
+		5251FE682F57060400CF1D98 /* DetectionViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE672F5705FC00CF1D98 /* DetectionViewModelProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		5251FE4C2F56F35C00CF1D98 /* AIDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDetectorUITests.swift; sourceTree = "<group>"; };
 		5251FE4D2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5251FE532F56F4CC00CF1D98 /* AIDetector.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = AIDetector.mlpackage; sourceTree = "<group>"; };
+		5251FE592F5700A900CF1D98 /* AIClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClassifier.swift; sourceTree = "<group>"; };
+		5251FE5B2F57010800CF1D98 /* DetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewModel.swift; sourceTree = "<group>"; };
+		5251FE5D2F57011800CF1D98 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		5251FE5F2F57022C00CF1D98 /* AIClassidierError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClassidierError.swift; sourceTree = "<group>"; };
+		5251FE612F57025D00CF1D98 /* DetectionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionLabel.swift; sourceTree = "<group>"; };
+		5251FE632F57027C00CF1D98 /* DetectionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionResult.swift; sourceTree = "<group>"; };
+		5251FE652F5702F300CF1D98 /* AIClassifierProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClassifierProtocol.swift; sourceTree = "<group>"; };
+		5251FE672F5705FC00CF1D98 /* DetectionViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewModelProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 		5251FE112F56F34200CF1D98 = {
 			isa = PBXGroup;
 			children = (
+				5251FE552F56FF2E00CF1D98 /* Sources */,
 				5251FE512F56F46B00CF1D98 /* Resources */,
 				5251FE522F56F48300CF1D98 /* Tests */,
 				5251FE1B2F56F34200CF1D98 /* Products */,
@@ -96,7 +113,6 @@
 				5251FE532F56F4CC00CF1D98 /* AIDetector.mlpackage */,
 				5251FE442F56F35C00CF1D98 /* AIDetectorApp.swift */,
 				5251FE452F56F35C00CF1D98 /* Assets.xcassets */,
-				5251FE462F56F35C00CF1D98 /* ContentView.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -109,6 +125,46 @@
 				5251FE4D2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		5251FE552F56FF2E00CF1D98 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5251FE562F56FF3B00CF1D98 /* Models */,
+				5251FE582F56FF4C00CF1D98 /* Views */,
+				5251FE572F56FF4200CF1D98 /* ViewModels */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5251FE562F56FF3B00CF1D98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5251FE592F5700A900CF1D98 /* AIClassifier.swift */,
+				5251FE652F5702F300CF1D98 /* AIClassifierProtocol.swift */,
+				5251FE5F2F57022C00CF1D98 /* AIClassidierError.swift */,
+				5251FE612F57025D00CF1D98 /* DetectionLabel.swift */,
+				5251FE632F57027C00CF1D98 /* DetectionResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5251FE572F56FF4200CF1D98 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5251FE5B2F57010800CF1D98 /* DetectionViewModel.swift */,
+				5251FE672F5705FC00CF1D98 /* DetectionViewModelProtocol.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5251FE582F56FF4C00CF1D98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5251FE462F56F35C00CF1D98 /* ContentView.swift */,
+				5251FE5D2F57011800CF1D98 /* ResultView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,9 +325,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251FE642F57028000CF1D98 /* DetectionResult.swift in Sources */,
+				5251FE602F57023500CF1D98 /* AIClassidierError.swift in Sources */,
+				5251FE682F57060400CF1D98 /* DetectionViewModelProtocol.swift in Sources */,
+				5251FE662F5702FE00CF1D98 /* AIClassifierProtocol.swift in Sources */,
+				5251FE5A2F5700B100CF1D98 /* AIClassifier.swift in Sources */,
+				5251FE5C2F57010F00CF1D98 /* DetectionViewModel.swift in Sources */,
 				5251FE542F56F4CC00CF1D98 /* AIDetector.mlpackage in Sources */,
 				5251FE472F56F35C00CF1D98 /* AIDetectorApp.swift in Sources */,
 				5251FE482F56F35C00CF1D98 /* ContentView.swift in Sources */,
+				5251FE622F57026500CF1D98 /* DetectionLabel.swift in Sources */,
+				5251FE5E2F57011B00CF1D98 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

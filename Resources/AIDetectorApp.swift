@@ -11,7 +11,7 @@ import SwiftUI
 struct AIDetectorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: DetectionViewModel())
         }
     }
 }
