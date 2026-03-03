@@ -53,8 +53,13 @@ AIDetector/
 └── Sources/
     ├── Models/
     │   └── AIClassifier.swift
+    │   └── AIClassifierProtocol.swift
+    │   └── AIClassifierError.swift
+    │   └── AIClassifierLabel.swift
+    │   └── AIClassifierResult.swift
     ├── ViewModels/
     │   └── DetectionViewModel.swift
+    │   └── DetectionViewModelProtocol.swift
     └── Views/
         ├── ContentView.swift
         └── ResultView.swift
