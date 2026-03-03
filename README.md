@@ -65,7 +65,6 @@ AIDetector/
 - [ ] Camera support
 - [ ] Video detection (frame-by-frame analysis)
 - [ ] Metadata analysis (EXIF)
-- [ ] App Store release
 
 ## License
 
