@@ -1,6 +1,6 @@
 # AIDetector
 
-Detect AI-generated images directly on your iPhone — no server, no data upload, full privacy.
+Detect AI generated images directly on your device.
 
 ## How It Works
 
