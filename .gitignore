@@ -46,3 +46,7 @@ env.sh
 
 # UI Tests
 .gitmodules
+
+# ML Models
+*.mlpackage
+*.mlmodel

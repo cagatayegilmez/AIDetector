@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5251FE472F56F35C00CF1D98 /* AIDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE442F56F35C00CF1D98 /* AIDetectorApp.swift */; };
+		5251FE482F56F35C00CF1D98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE462F56F35C00CF1D98 /* ContentView.swift */; };
+		5251FE492F56F35C00CF1D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5251FE452F56F35C00CF1D98 /* Assets.xcassets */; };
+		5251FE4B2F56F35C00CF1D98 /* AIDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE4A2F56F35C00CF1D98 /* AIDetectorTests.swift */; };
+		5251FE4E2F56F35C00CF1D98 /* AIDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE4C2F56F35C00CF1D98 /* AIDetectorUITests.swift */; };
+		5251FE4F2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE4D2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift */; };
+		5251FE542F56F4CC00CF1D98 /* AIDetector.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 5251FE532F56F4CC00CF1D98 /* AIDetector.mlpackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5251FE282F56F34300CF1D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +37,14 @@
 		5251FE1A2F56F34200CF1D98 /* AIDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5251FE272F56F34300CF1D98 /* AIDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5251FE312F56F34300CF1D98 /* AIDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251FE442F56F35C00CF1D98 /* AIDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDetectorApp.swift; sourceTree = "<group>"; };
+		5251FE452F56F35C00CF1D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5251FE462F56F35C00CF1D98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5251FE4A2F56F35C00CF1D98 /* AIDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDetectorTests.swift; sourceTree = "<group>"; };
+		5251FE4C2F56F35C00CF1D98 /* AIDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDetectorUITests.swift; sourceTree = "<group>"; };
+		5251FE4D2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5251FE532F56F4CC00CF1D98 /* AIDetector.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = AIDetector.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5251FE1C2F56F34200CF1D98 /* AIDetector */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AIDetector;
-			sourceTree = "<group>";
-		};
-		5251FE2A2F56F34300CF1D98 /* AIDetectorTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AIDetectorTests;
-			sourceTree = "<group>";
-		};
-		5251FE342F56F34300CF1D98 /* AIDetectorUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AIDetectorUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5251FE172F56F34200CF1D98 /* Frameworks */ = {
@@ -75,9 +74,8 @@
 		5251FE112F56F34200CF1D98 = {
 			isa = PBXGroup;
 			children = (
-				5251FE1C2F56F34200CF1D98 /* AIDetector */,
-				5251FE2A2F56F34300CF1D98 /* AIDetectorTests */,
-				5251FE342F56F34300CF1D98 /* AIDetectorUITests */,
+				5251FE512F56F46B00CF1D98 /* Resources */,
+				5251FE522F56F48300CF1D98 /* Tests */,
 				5251FE1B2F56F34200CF1D98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +88,27 @@
 				5251FE312F56F34300CF1D98 /* AIDetectorUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5251FE512F56F46B00CF1D98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5251FE532F56F4CC00CF1D98 /* AIDetector.mlpackage */,
+				5251FE442F56F35C00CF1D98 /* AIDetectorApp.swift */,
+				5251FE452F56F35C00CF1D98 /* Assets.xcassets */,
+				5251FE462F56F35C00CF1D98 /* ContentView.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5251FE522F56F48300CF1D98 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5251FE4A2F56F35C00CF1D98 /* AIDetectorTests.swift */,
+				5251FE4C2F56F35C00CF1D98 /* AIDetectorUITests.swift */,
+				5251FE4D2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,9 +126,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5251FE1C2F56F34200CF1D98 /* AIDetector */,
 			);
 			name = AIDetector;
 			packageProductDependencies = (
@@ -131,9 +147,6 @@
 			dependencies = (
 				5251FE292F56F34300CF1D98 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				5251FE2A2F56F34300CF1D98 /* AIDetectorTests */,
-			);
 			name = AIDetectorTests;
 			packageProductDependencies = (
 			);
@@ -153,9 +166,6 @@
 			);
 			dependencies = (
 				5251FE332F56F34300CF1D98 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5251FE342F56F34300CF1D98 /* AIDetectorUITests */,
 			);
 			name = AIDetectorUITests;
 			packageProductDependencies = (
@@ -213,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251FE492F56F35C00CF1D98 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251FE542F56F4CC00CF1D98 /* AIDetector.mlpackage in Sources */,
+				5251FE472F56F35C00CF1D98 /* AIDetectorApp.swift in Sources */,
+				5251FE482F56F35C00CF1D98 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251FE4B2F56F35C00CF1D98 /* AIDetectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251FE4E2F56F35C00CF1D98 /* AIDetectorUITests.swift in Sources */,
+				5251FE4F2F56F35C00CF1D98 /* AIDetectorUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +446,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,7 +485,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
